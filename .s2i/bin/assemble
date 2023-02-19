@@ -4,4 +4,5 @@
 cp -Rf /tmp/src/*.html ./
 DATE=$(date +"%b  %d, %Y")
 echo "page built on $DATE" > ./info.html
+echo "page built on $DATE" > /var/www/html/info.html
 
