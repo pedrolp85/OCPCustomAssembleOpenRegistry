@@ -1,0 +1,22 @@
+- Para hacer este ejercicio vamos a coger la imagen de apache que soporta s2i 
+  del catalog de redhat: 
+	podman pull rhscl/httpd-24-rhel7
+  La retagueamos para subirla a nuestro quay en modo privado
+  
+  podman push quay.io/pedrolp/httpd-mod -f v2s1 --remove-signatures
+
+  Tenemos ademas un repo de git en el que tenemos un fichero index.pho que da la bienvenida
+  
+  El ejercicio consiste en autenticar openshift con quay, usar la imagen de apache + en index de git
+  modificando el directorio .s2i assembe script del repo para hacer override del que trae la imagen por defecto
+
+  - El comporatamiento del script debe hacer lo siguiente:
+     - Copiar todos los fihcero *.html del directorio /tmp/src a ./
+     - crear un fichero info.html con el contenido page build on MM.dd.YY
+
+  Datos para desplegar:
+
+   project_name: mod-build
+   app_name: mod
+   
+
