@@ -13,6 +13,8 @@
   - El comporatamiento del script debe hacer lo siguiente:
      - Copiar todos los fihcero *.html del directorio /tmp/src a ./
      - crear un fichero info.html con el contenido page build on MM.dd.YY
+     - ojo la imagen no lo está dejando en /var/www/hmtl podemos modificarlo
+
 
   Datos para desplegar:
 
