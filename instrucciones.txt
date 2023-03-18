@@ -8,7 +8,7 @@
   Tenemos ademas un repo de git en el que tenemos un fichero index.php que da la bienvenida
   
   El ejercicio consiste en autenticar openshift con quay, usar la imagen de apache + en index de git
-  modificando el directorio .s2i assembe script del repo para hacer override del que trae la imagen por defecto
+  modificando el directorio .s2i assemble script del repo para hacer override del que trae la imagen por defecto
 
   - El comporatamiento del script debe hacer lo siguiente:
      - Copiar todos los fihcero *.html del directorio /tmp/src a ./
