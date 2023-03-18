@@ -1,5 +1,5 @@
 cp -R /tmp/src/*.html ./
 FECHA=$(date +'%d %b %y')
 echo "pagina hecha en $FECHA"
-echo "pagina hecha en $FECHA" >> info.html
+echo "pagina hecha en $FECHA" >> ./info.html
 
