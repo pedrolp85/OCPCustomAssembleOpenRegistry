@@ -5,7 +5,7 @@
   
   podman push quay.io/pedrolp/httpd-mod -f v2s1 --remove-signatures
 
-  Tenemos ademas un repo de git en el que tenemos un fichero index.pho que da la bienvenida
+  Tenemos ademas un repo de git en el que tenemos un fichero index.php que da la bienvenida
   
   El ejercicio consiste en autenticar openshift con quay, usar la imagen de apache + en index de git
   modificando el directorio .s2i assembe script del repo para hacer override del que trae la imagen por defecto
