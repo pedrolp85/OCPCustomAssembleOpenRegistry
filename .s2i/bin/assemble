@@ -1,4 +1,5 @@
 #!/bin/sh
 
-cp  /tmp/src/*.html /var/www/html/
-echo "page built on con suerte $(date '+ %Y %m %d')" > info.html
+cp  -Rf /src/*.html /var/www/html/
+echo "page built on con suerte $(date '+ %Y %m %d')" >> info.html
+echo "blalalaalal" >> info.html
