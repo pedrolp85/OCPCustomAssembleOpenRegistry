@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cp -Rf /tmp/src/*html .
+echo "Application build at $(date '+%Y %m %d')"
