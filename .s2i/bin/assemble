@@ -1,4 +1,4 @@
 #!/bin/sh
 
-cp -Rf /tmp/src/*html .
-echo "Application build at $(date '+%Y %m %d')"
+cp  /tmp/src/*.html .
+echo "page built on"$(date '+ %Y %m %d') > info.html
