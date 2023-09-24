@@ -21,4 +21,4 @@
    project_name: mod-build
    app_name: mod
    
-
+Aprovecha que hemos importado la imagen al image registry para abrirlo y descargar la imagen desde fuera
