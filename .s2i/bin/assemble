@@ -1,0 +1,6 @@
+#!/bin/sh
+
+cp -Rf /tmp/src/*.html ./
+echo $(date '+ %Y %m %d') >> ./info.html
+echo "Ad Astra" >> ./info.html
+
